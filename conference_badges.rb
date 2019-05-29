@@ -16,7 +16,7 @@ end
 
 def printer(speakerArr)
   badges = batch_badge_creator(speakerArr)
-  badges.each do |badge| 
+  badges.each do |badge|
     puts badge
   end
 
