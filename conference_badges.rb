@@ -10,6 +10,6 @@ end
 
 def assign_rooms(speakerArr)
   room_assignments = speakerArr.map.with_index do |speaker, index|
-      "Hello, #{speaker}! You'll be assigned to room #{index + 1}."
+      "Hello, #{speaker}! You'll be assigned to room #{index + 1}!"
   end
 end
