@@ -13,3 +13,8 @@ def assign_rooms(speakerArr)
       "Hello, #{speaker}! You'll be assigned to room #{index + 1}!"
   end
 end
+
+def printer(speakerArr)
+  puts batch_of_badges(speakerArr)
+  puts assign_rooms(speakerArr)
+end
