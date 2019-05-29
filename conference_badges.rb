@@ -8,7 +8,7 @@ end
 
 def assign_rooms(speakerArr)
   room_number = 1
-  room_assignments = speakerArr.map { |speaker|
+  room_assignments = speakerArr.map do { |speaker|
     "Hello, #{speaker}! You'll be assigned to room #{room_number}." room_number =+ 1}
 
 end
